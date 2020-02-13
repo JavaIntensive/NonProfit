@@ -1,5 +1,76 @@
 .mbackgroudfooter{
 
+}
 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
 
+/*.metrologo {*/
+/*    background-color: black;*/
+/*}*/
+
+.eheaderbackground  {
+    background-color: black;
+}
+
+/*.horizontalnav {*/
+/*    background-color: black;*/
+/*}*/
+.navbar {
+    background-color: black;
+    padding-left: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .nav-item:hover .nav-link {
+    color: white;
+}
+
+.navbar .dropdown-menu {
+    background-color: black;
+}
+
+.navbar .dropdown-item {
+    color: white;
+}
+
+.navbar .dropdown-item:hover {
+    color: white;
+    background-color: black;
+}
+
+.zoo-logo {
+    margin-right: 20px;
+}
+
+/*.navbar-nav > li{*/
+/*    padding-left:30px;*/
+/*    padding-right:110px;*/
+/*}*/
+
+.nav-item {
+    border-right: 1px solid silver;
+    padding-right: 15px;
+}
+.nav-item:first-child {
+    border-left: 1px solid silver;
+    padding-left: 15px;
+}
+
+/*.fill-width.dropdown {*/
+/*    position: static;*/
+/*}*/
+/*.fill-width.dropdown > .dropdown-menu {*/
+/*    left: auto;*/
+/*}*/
+/*.fill-width.dropdown > .dropdown-menu > li > a {*/
+/*    white-space: normal;*/
+/*}*/
+
+.smalllink {
+    color: white;
 }
