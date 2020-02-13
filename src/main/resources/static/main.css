@@ -1,5 +1,7 @@
 
-
+* {
+    box-sizing: border-box;
+}
 /*matt*/
 ul li a {
     color: white;
@@ -13,11 +15,12 @@ background-color: blue;
 
 aside {
     /*background-image: url("/profiles/oregon_zoo_base/themes/packy/images/illustration-strip-v3-zoo-1140px.png");*/
-    background-image: url("img/download.png");
+    background-image: url("./img/download.png");
 /*how to get the image background displayed? change color?*/
 }
 .mymargin{
  margin: 0 auto;
+
 }
 
 #flex1 {
@@ -37,4 +40,35 @@ aside {
 #flex3 li {
     margin: 10px;
     list-style: none;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapped {
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+    right: 1%;
+}
+
+#no-bottom {
+    margin-bottom: 0;
+}
+
+footer img {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+footer div {
+    color: white;
+}
+
+
+footer p {
+    text-align: center;
+    color: gold;
 }
