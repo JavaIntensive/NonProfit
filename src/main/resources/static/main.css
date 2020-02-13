@@ -2,6 +2,11 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-image: url("/img/zoo.jpg");
+    background-size: cover;
+}
 /*matt*/
 ul li a {
     color: white;
@@ -153,3 +158,4 @@ a {
 /*>>>>>>> 41e425c90cdea58813c8a41b95bc036b55248cd5*/
 /*>>>>>>> 572ba5657b3b88fc0f78aaf5e55a4fb8447436be*/
 }
+
