@@ -71,4 +71,85 @@ footer div {
 footer p {
     text-align: center;
     color: gold;
+=======
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+a {
+    color: #5B8D9F;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+/*.metrologo {*/
+/*    background-color: black;*/
+/*}*/
+
+.eheaderbackground  {
+    background-color: black;
+}
+
+/*.horizontalnav {*/
+/*    background-color: black;*/
+/*}*/
+.navbar {
+    background-color: black;
+    padding-left: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .nav-item:hover .nav-link {
+    color: white;
+}
+
+.navbar .dropdown-menu {
+    background-color: black;
+}
+
+.navbar .dropdown-item {
+    color: white;
+}
+
+.navbar .dropdown-item:hover {
+    color: white;
+    background-color: black;
+}
+
+.zoo-logo {
+    margin-right: 20px;
+}
+
+/*.navbar-nav > li{*/
+/*    padding-left:30px;*/
+/*    padding-right:110px;*/
+/*}*/
+
+.nav-item {
+    border-right: 1px solid silver;
+    padding-right: 15px;
+}
+.nav-item:first-child {
+    border-left: 1px solid silver;
+    padding-left: 15px;
+}
+
+/*.fill-width.dropdown {*/
+/*    position: static;*/
+/*}*/
+/*.fill-width.dropdown > .dropdown-menu {*/
+/*    left: auto;*/
+/*}*/
+/*.fill-width.dropdown > .dropdown-menu > li > a {*/
+/*    white-space: normal;*/
+/*}*/
+
+.smalllink {
+    color: white;
+/*>>>>>>> 41e425c90cdea58813c8a41b95bc036b55248cd5*/
+/*>>>>>>> 572ba5657b3b88fc0f78aaf5e55a4fb8447436be*/
 }
