@@ -2,17 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Welcome to the Oregon Zoo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+<style>
+    /*body {*/
+    /*    width:1500px;*/
+    /*    display: block;*/
+    /*    margin: 0 auto;*/
+    /*}*/
+</style>
 </head>
+
 <body>
 
+<div class="container">
+<div class="eheaderbackground">
+    <img class= "zoo-logo"src="https://www.oregonzoo.org/sites/default/files/2014/01/29/OZ_Logo_H_REV_140.gif"
+     alt="Oregon Zoo logo" img height="50" width="140">
 
-<p>
-    will construct the header
+    <img src="https://library.oregonmetro.gov/images/logos/Metro_logo_white_120_50.png"
+     alt="Metro logo" img height="50" width="120">
+
+    <div class="row float-right col-md-3">
+<!--        <div class="col-md-4 float-right">-->
+            <div class="input-group">
+                <span class="input-group-prepend">
+                    <div class="input-group-text bg-transparent border-right-0"><i class="fa fa-search"></i></div>
+                </span>
+                <input class="form-control py-2 border-left-0 border" type="search" value="" id="example-search-input">
+                <span class="input-group-append">
+                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                    Search
+                </button>
+              </span>
+            </div>
+        </div>
+    <div class="smalllink float-right">test test test</div>
+<!--    </div>-->
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+<!--    <a class="navbar-brand" href="#">Navbar</a>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav-fill w-100">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Visit
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Summer concerts</a>
+                    <a class="dropdown-item" href="#">Zoo map</a>
+                    <a class="dropdown-item" href="#">Concerts</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Discover
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">A new zoo</a>
+                    <a class="dropdown-item" href="#">Animals</a>
+                    <a class="dropdown-item" href="#">Exhibits</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Get involved</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Conserve</a>
+            </li>
+
+            <li class="nav-item dropdown fill-width">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Zoo News</a>
+                    <a class="dropdown-item" href="#">About the Oregon Zoo</a>
+                    <a class="dropdown-item" href="#">About the Oregon Zoo Foundation</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</div>
+
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
