@@ -7,4 +7,34 @@ ul li a {
 
 footer {
 
+background-color: blue;
+
+}
+
+aside {
+    /*background-image: url("/profiles/oregon_zoo_base/themes/packy/images/illustration-strip-v3-zoo-1140px.png");*/
+    background-image: url("img/download.png");
+/*how to get the image background displayed? change color?*/
+}
+.mymargin{
+ margin: 0 auto;
+}
+
+#flex1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flex2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flex3 {
+    display: flex;
+}
+
+#flex3 li {
+    margin: 10px;
+    list-style: none;
 }
