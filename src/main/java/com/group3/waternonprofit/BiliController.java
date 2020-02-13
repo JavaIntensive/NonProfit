@@ -8,6 +8,6 @@ public class BiliController {
     @RequestMapping("/bili")
     public String contactus(){
 
-        return "billindex";
+        return "test";
     }
 }
